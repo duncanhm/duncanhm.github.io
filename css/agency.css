@@ -61,7 +61,7 @@ section h3.section-subheading {
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 10px 25px;
 }
 
 .btn-primary {
@@ -191,8 +191,8 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 45px;
+  font-weight: 600;
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -207,12 +207,12 @@ header.masthead .intro-text .intro-heading {
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
-    font-weight: 700;
+    font-weight: 575;
     line-height: 75px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -317,12 +317,15 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content h2 {
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 15px;
 }
 
-.portfolio-modal .modal-content p {
-  margin-bottom: 30px;
+@media (min-width: 768px) {
+  .portfolio-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+  }
 }
 
 .portfolio-modal .modal-content p.item-intro {

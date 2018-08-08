@@ -59,9 +59,10 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Hi, I'm Duncan!</div>
-          <div class="intro-heading text-uppercase">See what I can do</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#skills">Explore</a>
+          
+          <div class="intro-heading">Duncan { get; set; }</div>
+		  <div class="intro-lead-in">Software Developer</div>
+          <a class="btn btn-primary text-uppercase js-scroll-trigger" href="#skills">Explore</a>
         </div>
       </div>
     </header>
@@ -150,14 +151,14 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/01.PNG" alt="">
+              <img class="img-fluid" src="img/portfolio/01.PNG" alt="Blue Ribbons Review logo">
             </a>
             <div class="portfolio-caption">
-              <h4>Library Database</h4>
-              <p class="text-muted"><a href="https://github.com/duncanhm/sql-library-project" target="_new">See my code on GitHub!</a></p>
+              <h4>Blue Ribbons Review Internship Stories</h4>
+              <p class="text-muted"><a href="https://github.com/duncanhm/BlueRibbonsReview-Stories/blob/master/README.md" target="_new">See my code on GitHub</a><br>and<br></p>
+			  <p><a href="http://www.blueribbonsreview.com/" target="_new">Check out the live site here!</a></p>
             </div>
           </div>
-		  <!--
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
@@ -165,11 +166,11 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/02.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Project</h4>
-              <p class="text-muted">Coming soon!</p>
+              <h4>JS Pizza Menu App</h4>
+              <p class="text-muted"><a href="https://github.com/duncanhm/js-pizza-menu" target="_new">See my code on GitHub!</a></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -179,14 +180,41 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/03.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Project</h4>
-              <p class="text-muted">Coming soon!</p>
+              <h4>Library Database</h4>
+              <p class="text-muted"><a href="https://github.com/duncanhm/sql-library-project" target="_new">See my code on GitHub!</a></p>
             </div>
           </div>
-		  -->
+		  <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/04.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Academy Cinemas Bootstrap Website</h4>
+              <p class="text-muted"><a href="https://github.com/duncanhm/Academy-Cinemas-Website" target="_new">See my code on GitHub!</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/05.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Space Tours Website</h4>
+              <p class="text-muted"><a href="https://github.com/duncanhm/Space-Station-Website" target="_new">See my code on GitHub!</a></p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -283,9 +311,7 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <h4>Could
-                    <br>you be 
-                    <br>next?</h4>
+                  <h4><br>NEXT(YOU)</h4>
                 </div>
               </li>
             </ul>
@@ -317,11 +343,6 @@
           <div class="col-md-4"></div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/duncan.howardmcguire" target="_new">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
               <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/duncanhm" target="_new">
                   <i class="fab fa-linkedin-in"></i>
@@ -355,19 +376,27 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Library System Database</h2>
-                  <p class="item-intro text-muted">Coded using SQL Server 2014</p>
+                  <h2 class="text-uppercase">Blue Ribbons Review Internship Stories</h2>
+                  <p class="item-intro text-muted">Entity Framework Code First ASP.NET MVC application coded in MS Visual Studio, using C# and front-end web development languages (HTML, CSS, JavaScript)</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/01.PNG" alt="">
-                  <p>I put together a simple database in Microsoft SQL Server, replicating a library system database in a fictional city. 
-				  There are six tables total, connected by foreign keys in such a way as to be practical for querying data on the location of books among libraries and with loanees.
-				  I also included a number of example queries at the end of the file on my GitHub page. You will find the link to my project below. 
+                  <p>I was a full-stack developer intern on the Blue Ribbons Review website project for Prosper I.T. Consulting in June and July 2018. 
+				  You will find details and a full overview of my work on the project in the README file on my GitHub page (see link below).
+				  </p>
+				  <p>
+				  <i>Note: During my time on the project, the team was working on an updated design for the live site, which is why you will notice that the screenshots in the 
+				  README file on my GitHub page look a little different than the site that is live as of the end of July 2018.</i>
+				  </p>
+				  <p>
+				  Blue Ribbons Review is a website that 
+				  connects product sellers with customers, where the ultimate goal is to increase a seller's product review quality and quantity on Amazon.com. 
+				  Customers can browse the site for discounted products and leave reviews for products they have purchased.
 				  </p>
                   <ul class="list-inline">
-                    <li>Date: March 2018</li>
-                    <li>Languages: T-SQL</li>
-					<li>Course: Databases &amp; SQL</li>
+                    <li>Date: June-July 2018</li>
+                    <li>Languages: C#, LINQ to SQL, HTML, CSS, JavaScript, Knockout.js</li>
 					<br>
-					<li><a href="https://github.com/duncanhm/sql-library-project" target="_new">Check out the code on GitHub!</a></li>
+					<li><a href="https://github.com/duncanhm/BlueRibbonsReview-Stories/blob/master/README.md" target="_new">See my code on GitHub</a><br>and<br></li>
+					<li><a href="http://www.blueribbonsreview.com/" target="_new">Check out the live site here</a></li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -394,14 +423,19 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project.</p>
+                  <h2 class="text-uppercase">JS Pizza Menu App</h2>
+                  <p class="item-intro text-muted">Coded using HTML, CSS and JavaScript</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-1.png" alt="">
+                  <p>For this project, I created an interactive pizza ordering menu using vanilla JavaScript. The application allows the user to select from multiple different pizza options, including: 
+				  size, crust, sauce, cheese, meat, and veggies. There are radio buttons for the user to select one option each for size, crust, sauce, and cheese, and check boxes for meat and veggie options.
+				  I wrote in logic so that in certain cases (where indicated to the user), particular options will add additional cost to the order. When the user is finished with creating their order, 
+				  they click the "Place Order" button, which brings up an order recipt with the itemized cost of their various selections and a grand total.
+				  </p>
                   <ul class="list-inline">
-                    <li>Date:</li>
-                    <li>Languages:</li>
-                    <li>Course:</li>
+                    <li>Date: May 2018</li>
+                    <li>Languages: HTML, CSS, JavaScript</li>
+					<br>
+					<li><a href="https://github.com/duncanhm/js-pizza-menu" target="_new">Check out the code on GitHub!</a></li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -428,14 +462,94 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project.</p>
+                  <h2 class="text-uppercase">Library System Database</h2>
+                  <p class="item-intro text-muted">Coded using SQL Server 2014</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03.PNG" alt="">
+                  <p>I put together a simple database in Microsoft SQL Server, replicating a library system database in a fictional city. 
+				  There are six tables total, connected by foreign keys in such a way as to be practical for querying data on the location of books among libraries and with loanees.
+				  I also included a number of example queries at the end of the file on my GitHub page. You will find the link to my project below. 
+				  </p>
                   <ul class="list-inline">
-                    <li>Date:</li>
-                    <li>Languages:</li>
-                    <li>Course:</li>
+                    <li>Date: March 2018</li>
+                    <li>Languages: T-SQL</li>
+					<br>
+					<li><a href="https://github.com/duncanhm/sql-library-project" target="_new">Check out the code on GitHub!</a></li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	<!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Academy Cinemas Bootstrap Website</h2>
+                  <p class="item-intro text-muted">Coded in Notepad++, using Bootstrap4, HTML, and CSS</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04.jpg" alt="">
+                  <p>A mock website I put together for a fictional local cinema. This was the first project I worked on while learning Bootstrap4. It is pretty basic and not dynamic,
+				  but I was able to get a great feel for some of the various modals and structure of a Bootstrap site. I have since gone on to use the knowledge I picked up on this project to help
+				  me with front-end design on the Blue Ribbons Review ASP.NET MVC application I worked with during my most recent internship.
+				  </p>
+                  <ul class="list-inline">
+                    <li>Date: March 2018</li>
+                    <li>Languages: Bootstrap framework, HTML, CSS</li>
+					<br>
+					<li><a href="https://github.com/duncanhm/Academy-Cinemas-Website" target="_new">Check out the code on GitHub!</a></li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Space Tours Website</h2>
+                  <p class="item-intro text-muted">Coded in Notepad++, using HTML and CSS</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-1.jpg" alt="">
+                  <p>One of the first coding projects I ever worked on. This is just a simple mock website I created using vanilla HTML and CSS.
+				   My goal was to create a webpage with the basics that I knew at the time that would look cool and different than other boring designs I had been learning.
+				   It contains several sections, a photo gallery and a reservations forum, as well as a heading section upon landing on the page.
+				   </p>
+                  <ul class="list-inline">
+                    <li>Date: February 2018</li>
+                    <li>Languages: HTML, CSS</li>
+					<br>
+					<li><a href="https://github.com/duncanhm/Space-Station-Website" target="_new">Check out the code on GitHub!</a></li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
